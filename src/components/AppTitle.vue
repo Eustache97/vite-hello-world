@@ -1,13 +1,9 @@
 <script>
-import AppTitle from "./components/AppTitle.vue"
 export default{
   data() {
     return{
 
     }
-  },
-  components: {
-    AppTitle
   },
   methods: {
 
@@ -15,10 +11,7 @@ export default{
 }
 </script>
 <template>
-  <AppTitle/>
+  <h1>La mia prima app con Vite!</h1>
 </template>
 <style>
-h1{
-  color:blue
-}
 </style>
